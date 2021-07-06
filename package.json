@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "beaty-appointment",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:website": "yarn workspace website run dev"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  }
+}
